@@ -1,7 +1,10 @@
 {
-  "name": "LinkShim",
-  "description": "l.facebook.com clone",
-  "repository": "https://github.com/py7hon/LinkShim",
-  "logo": "https://png.icons8.com/metro/1600/link.png",
-  "keywords": ["python", "LinkShim", "redirect"]
+  "buildpacks": [
+    {
+      "url": "https://github.com/py7hon/LinkShim"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
 }
